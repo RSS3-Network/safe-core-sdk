@@ -7,7 +7,7 @@ import { SafeProxyFactoryContract } from '@safe-global/safe-core-sdk-types/contr
 import { SignMessageLibContract } from '@safe-global/safe-core-sdk-types/contracts/SignMessageLibContract'
 import { SimulateTxAccessorContract } from '@safe-global/safe-core-sdk-types/contracts/SimulateTxAccessorContract'
 import { Eip3770Address, SafeEIP712Args, SafeVersion } from '@safe-global/safe-core-sdk-types/types'
-import { SingletonDeployment } from '@safe-global/safe-deployments'
+import { SingletonDeployment } from '@rss3-network/safe-deployments'
 import { AbiItem } from 'web3-utils'
 
 export interface EthAdapterTransaction {
