@@ -1,5 +1,5 @@
 import { SafeVersion } from '@safe-global/safe-core-sdk-types'
-import { DeploymentFilter, getSafeSingletonDeployment } from '@rss3-network/safe-deployments'
+import { DeploymentFilter, getSafeSingletonDeployment } from '@rss3/safe-deployments'
 import { networks } from '../src/utils/eip-3770/config'
 
 const compatibleSafeVersions: SafeVersion[] = ['1.0.0', '1.1.1', '1.2.0', '1.3.0', '1.4.1']

@@ -13,7 +13,7 @@ const outDirTests = 'typechain/tests/'
 
 // Contract list for which the Typechain files will be generated
 // Will be included in dist/ folder
-const safeContractsPath = '../../node_modules/@rss3-network/safe-deployments/dist/assets'
+const safeContractsPath = '../../node_modules/@rss3/safe-deployments/dist/assets'
 
 const safeContracts_V1_4_1 = [
   `${safeContractsPath}/v1.4.1/safe.json`,

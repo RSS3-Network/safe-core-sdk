@@ -23,7 +23,7 @@ import {
   getSafeSingletonDeployment,
   getSignMessageLibDeployment,
   getSimulateTxAccessorDeployment
-} from '@rss3-network/safe-deployments'
+} from '@rss3/safe-deployments'
 import { safeDeploymentsL1ChainIds, safeDeploymentsVersions } from './config'
 
 export interface GetContractInstanceProps {
